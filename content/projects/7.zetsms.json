@@ -1,0 +1,8 @@
+{
+    "name": "Zet SMS",
+    "url": "https://zetsms.com/login",
+    "description": "High performance sms application developed with React",
+    "thumbnail": "https://zetsms.com/assets/design-login-D0yXKzwG.png",
+    "status": "Active",
+    "opensource": true
+  }
