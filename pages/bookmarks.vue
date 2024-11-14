@@ -28,7 +28,7 @@
 
 <script setup>
 const description =
-  "Hüseyin Onur's Awesome things I've found on the internet. This page is still WIP, I want to add search like bmrks.com";
+  "Hüseyin Onur's online research and software development tools";
 useSeoMeta({
   title: "Bookmarks | Hüseyin Onur",
   description,
@@ -37,79 +37,86 @@ useSeoMeta({
 const bookmarks = [
   {
     id: 1,
-    label: "Adam Wathan - Tailwind CSS Best Practice Patterns",
-    url: "https://www.youtube.com/watch?v=J_7_mnFSLDg",
+    label: "My research home Github",
+    url: "https://github.com/",
   },
   {
-    id: 2,
+    id:22,
+    label:"My system development tool",
+    url:"https://supabase.com/"
+  },
+
+  {
+    id:19,
+    label:"My AI robot promter",
+    url:"https://copilot.microsoft.com/"
+  },
+  {
+    id:20,
+    label:"Backend development",
+    url:"https://nodejs.org/en"
+  },
+  {
+    id:21,
+    label:"Development standarts",
+    url:"https://www.w3schools.com/"
+  },
+  {
+    id: 10,
+    label: "High performance Next UI Components library",
+    url: "https://ui.shadcn.com/",
+  },
+  {
+    id:17,
+    label:"Research Library",
+    url: "https://app.daily.dev/"
+  },
+  {
+    id:18,
+    label:"English learning",
+    url:"https://www.busuu.com/"
+  },
+  {
+    id: 3,
+    label: "Medium Articles",
+    url: "https://medium.com/",
+  },
+  {
+    id:4 ,
+    label: "Stabilized notification library",
+    url: "https://sonner.emilkowal.ski/",
+  },
+  {
+    id: 6,
+    label: "Stabilized API Platform",
+    url: "https://rapidapi.com/",
+  },
+  {
+    id: 12,
+    label: "Google Fonts",
+    url: "https://fonts.google.com/",
+  },
+  {
+    id: 11,
     label: "Dicebear Awesome avatars",
     url: "https://www.dicebear.com/",
   },
   {
-    id: 3,
-    label: "Circuit design stock image",
-    url: "https://images.unsplash.com/photo-1592659762303-90081d34b277?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2873&q=80",
-  },
-  {
-    id: 4,
-    label: "Beautiful Gradient Generator",
-    url: "https://www.joshwcomeau.com/gradient-generator/",
-  },
-  {
-    id: 5,
-    label: "3D device mockups",
-    url: "https://deviceframes.com/",
-  },
-  {
-    id: 6,
-    label: "Box shadow examples",
-    url: "https://getcssscan.com/css-box-shadow-examples",
-  },
-  {
-    id: 7,
-    label: "Octupos Illustration",
-    url: "https://refine.new/",
-  },
-  {
-    id: 8,
-    label: "Metalab agency",
-    url: "https://www.metalab.com/",
+    id:5,
+    label: "Stabilized animations library",
+    url: "https://vaul.emilkowal.ski/default",
   },
   {
     id: 9,
-    label: "Tines - Beautiful landing page",
-    url: "https://www.tines.com/product",
-  },
-  {
-    id: 10,
     label: "SVG Spinners",
     url: "https://github.com/n3r4zzurr0/svg-spinners",
   },
   {
-    id: 11,
-    label: "ASCII Flow - Text based image drawing",
-    url: "https://asciiflow.com/#/",
+    id: 2,
+    label: "My research home Stack",
+    url: "https://stackoverflow.com/",
   },
-  {
-    id: 12,
-    label: "REQRES Mock apis for testing",
-    url: "https://reqres.in/",
-  },
-  {
-    id: 13,
-    label: "Haikie - SVG background generator",
-    url: "https://app.haikei.app/",
-  },
-  {
-    id: 14,
-    label: "IP API",
-    url: "https://ipapi.is/",
-  },
-  {
-    id: 15,
-    label: "Rakko Tools",
-    url: "https://en.rakko.tools/",
-  },
+
 ];
 
 function getHost(url) {
