@@ -11,7 +11,7 @@ export const tr: Dictionary = {
     name: "Hüseyin Onur",
     initials: "HO",
     role: "Kıdemli Full Stack Geliştirici",
-    email: "hello@huseyinonur.dev",
+    email: "onur.huseyin05@gmail.com",
     location: "Uzaktan / Dünya Çapında",
     socials: [
       { label: "GitHub", href: "https://github.com/onur-huseyin" },
