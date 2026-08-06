@@ -177,7 +177,7 @@ export const tr: Dictionary = {
     closing: "Hadi bağlantı kuralım ve etkili bir şey yaratalım.",
   },
   footer: {
-    builtWith: "Next.js, Tailwind CSS & GSAP ile tasarlandı ve geliştirildi.",
+    builtWith: "",
     rightsTemplate: "{year} {name}. Tüm hakları saklıdır.",
   },
 };
