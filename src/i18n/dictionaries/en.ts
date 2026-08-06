@@ -177,7 +177,7 @@ export const en: Dictionary = {
     closing: "Let's connect and create something impactful.",
   },
   footer: {
-    builtWith: "Designed & built with Next.js, Tailwind CSS & GSAP.",
+    builtWith: "",
     rightsTemplate: "{year} {name}. All rights reserved.",
   },
 };
