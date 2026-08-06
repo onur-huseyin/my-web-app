@@ -6,6 +6,7 @@ export type TechItem = {
 /** Shared tech stack for the hero marquee (locale-agnostic labels). */
 export const techStack: TechItem[] = [
   { id: "dotnet", label: ".NET Core" },
+  
   { id: "nodejs", label: "Node.js" },
   { id: "react", label: "React" },
   { id: "nextjs", label: "Next.js" },

@@ -5,6 +5,7 @@ import { gsap, ScrollTrigger, useGSAP } from "@/lib/gsap";
 import { useTranslation } from "@/i18n/useTranslation";
 import LanguageSwitcher from "@/components/ui/LanguageSwitcher";
 
+
 export default function Navbar() {
   const { t } = useTranslation();
   const { nav, site } = t;
