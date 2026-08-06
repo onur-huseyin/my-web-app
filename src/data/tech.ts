@@ -15,4 +15,6 @@ export const techStack: TechItem[] = [
   { id: "docker", label: "Docker" },
   { id: "typescript", label: "TypeScript" },
   { id: "react-native", label: "React Native" },
+  { id: "python", label: "Python" },
+  { id: "javascript", label: "JavaScript" },
 ];
