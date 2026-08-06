@@ -174,7 +174,6 @@ export const tr: Dictionary = {
     heading: "Birlikte Harika Bir Şey\nİnşa Edelim",
     description:
       "Zorlu projelere, yenilikçi fikirlere ve heyecan verici fırsatlara her zaman açığım. Bir Full Stack Developer veya Backend Engineer arıyorsanız, sizden haber almak isterim.",
-    closing: "Hadi bağlantı kuralım ve etkili bir şey yaratalım.",
   },
   footer: {
     builtWith: "",

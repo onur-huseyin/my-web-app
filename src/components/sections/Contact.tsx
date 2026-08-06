@@ -38,7 +38,6 @@ export default function Contact() {
           </Magnetic>
         </div>
 
-        <p className="mt-8 font-display text-lg text-muted italic">{contact.closing}</p>
       </div>
     </section>
   );

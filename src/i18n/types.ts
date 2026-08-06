@@ -74,7 +74,6 @@ export type Dictionary = {
     eyebrow: string;
     heading: string;
     description: string;
-    closing: string;
   };
   footer: {
     builtWith: string;

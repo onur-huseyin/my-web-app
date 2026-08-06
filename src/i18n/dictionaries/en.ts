@@ -174,7 +174,6 @@ export const en: Dictionary = {
     heading: "Let's Build Something\nGreat Together",
     description:
       "I'm always interested in challenging projects, innovative ideas, and exciting opportunities. Whether you're looking for a Full Stack Developer or a Backend Engineer, I'd love to hear from you.",
-    closing: "Let's connect and create something impactful.",
   },
   footer: {
     builtWith: "",
