@@ -48,7 +48,7 @@ export const en: Dictionary = {
       { value: "6+", label: "Years of Experience" },
       { value: "4", label: "Enterprise Platforms Shipped" },
       { value: "20+", label: "Technologies & Tools" },
-      { value: ".NET / Node", label: "Core Backend Stacks" },
+      { value: ".NET / Node / Java / Golang", label: "Core Backend Stacks" },
     ],
     whatIDoEyebrow: "What I Do",
   },

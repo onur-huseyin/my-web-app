@@ -48,7 +48,7 @@ export const tr: Dictionary = {
       { value: "6+", label: "Yıllık Tecrübe" },
       { value: "4", label: "Yayınlanan Kurumsal Platform" },
       { value: "20+", label: "Teknoloji & Araç" },
-      { value: ".NET / Node", label: "Temel Backend Teknolojileri" },
+      { value: ".NET / Node / Java / Golang", label: "Temel Backend Teknolojileri" },
     ],
     whatIDoEyebrow: "Neler Yapıyorum",
   },
