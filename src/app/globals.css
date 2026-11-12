@@ -5,19 +5,19 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
-  /* Brand tokens */
-  --bg: #06060a;
-  --bg-elevated: #0d0d13;
-  --bg-elevated-2: #14141d;
-  --fg: #f3f3ef;
-  --muted: #98979f;
-  --muted-2: #5f5e68;
-  --accent: #d7ff3f;
-  --accent-2: #7c5cff;
-  --line: rgba(243, 243, 239, 0.09);
-  --line-strong: rgba(243, 243, 239, 0.18);
+  color-scheme: light;
+  --bg: #f6f8fa;
+  --bg-elevated: #ffffff;
+  --bg-elevated-2: #e8edf2;
+  --fg: #1f2328;
+  --muted: #59636e;
+  --muted-2: #818b98;
+  --accent: #1a7f37;
+  --accent-2: #0969da;
+  --on-accent: #ffffff;
+  --line: rgba(31, 35, 40, 0.12);
+  --line-strong: rgba(31, 35, 40, 0.22);
 
-  /* shadcn tokens (dark-first to match the portfolio) */
   --background: var(--bg);
   --foreground: var(--fg);
   --card: var(--bg-elevated);
@@ -25,11 +25,11 @@
   --popover: var(--bg-elevated);
   --popover-foreground: var(--fg);
   --primary: var(--accent);
-  --primary-foreground: #0a0a0a;
+  --primary-foreground: var(--on-accent);
   --secondary: var(--bg-elevated-2);
   --secondary-foreground: var(--fg);
   --muted-foreground: var(--muted);
-  --accent-foreground: #0a0a0a;
+  --accent-foreground: var(--on-accent);
   --destructive: oklch(0.65 0.2 25);
   --border: var(--line-strong);
   --input: var(--line-strong);
@@ -50,6 +50,23 @@
   --sidebar-ring: var(--ring);
 }
 
+.dark {
+  color-scheme: dark;
+  --bg: #0b0d10;
+  --bg-elevated: #111418;
+  --bg-elevated-2: #181c22;
+  --fg: #e6edf3;
+  --muted: #8b949e;
+  --muted-2: #6e7681;
+  --accent: #3fb950;
+  --accent-2: #58a6ff;
+  --on-accent: #0b0d10;
+  --line: rgba(230, 237, 243, 0.1);
+  --line-strong: rgba(230, 237, 243, 0.2);
+  --primary-foreground: var(--on-accent);
+  --accent-foreground: var(--on-accent);
+}
+
 @theme inline {
   --color-bg: var(--bg);
   --color-bg-elevated: var(--bg-elevated);
@@ -59,6 +76,7 @@
   --color-muted-2: var(--muted-2);
   --color-accent: var(--accent);
   --color-accent-2: var(--accent-2);
+  --color-on-accent: var(--on-accent);
   --color-line: var(--line);
   --color-line-strong: var(--line-strong);
   --font-display: var(--font-space-grotesk);
@@ -121,7 +139,7 @@ body {
 
 ::selection {
   background: var(--accent);
-  color: #0a0a0a;
+  color: var(--on-accent);
 }
 
 @media (pointer: fine) {

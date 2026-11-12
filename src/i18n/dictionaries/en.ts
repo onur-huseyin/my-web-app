@@ -2,7 +2,7 @@ import type { Dictionary } from "../types";
 
 export const en: Dictionary = {
   common: {
-    letsTalk: "Let's Talk",
+    letsTalk: "mail",
     toggleMenu: "Toggle menu",
     scroll: "Scroll",
     languageLabel: "Select language",
@@ -10,47 +10,45 @@ export const en: Dictionary = {
   site: {
     name: "Hüseyin Onur",
     initials: "HO",
-    role: "Senior Full Stack Developer",
+    role: "fullstack · backend first",
     email: "onur.huseyin05@gmail.com",
-    location: "Remote / Worldwide",
+    phone: "+905433717431",
+    location: "remote",
     socials: [
       { label: "GitHub", href: "https://github.com/onur-huseyin" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/onur-huseyin/" },
     ],
   },
   nav: [
-    { label: "About", href: "#about", num: "01" },
-    { label: "Work", href: "#work", num: "02" },
-    { label: "Skills", href: "#skills", num: "03" },
-    { label: "Experience", href: "#experience", num: "04" },
-    { label: "Contact", href: "#contact", num: "05" },
+    { label: "who", href: "#about", num: "01" },
+    { label: "work", href: "#work", num: "02" },
+    { label: "stack", href: "#skills", num: "03" },
+    { label: "log", href: "#experience", num: "04" },
+    { label: "mail", href: "#contact", num: "05" },
   ],
   hero: {
-    badge: "Available for New Opportunities",
-    heading: "Senior Full Stack Developer",
-    subtitle:
-      "Building scalable backend systems, modern web applications, and high-performance APIs.",
+    badge: "status: available",
+    heading: "hüseyin onur",
+    subtitle: "fullstack developer. backend first.",
     description:
-      "I am a Full Stack Developer with over 6 years of experience designing and building scalable software solutions. I specialize in .NET, Node.js, React, and cloud technologies, delivering reliable, high-performance applications with a strong focus on clean architecture and user experience.",
-    primaryCta: { label: "View My Work", href: "#work" },
-    secondaryCta: { label: "Contact Me", href: "#contact" },
+      "apis, queues, cache, and dashboards. .net, node, java, python, react. no pitch deck — code that is already in production.",
+    primaryCta: { label: "work", href: "#work" },
+    secondaryCta: { label: "github", href: "https://github.com/onur-huseyin" },
   },
   about: {
-    eyebrow: "About Me",
-    heading: "Engineering software\nthat scales.",
+    eyebrow: "// who",
+    heading: "i ship the product.",
     paragraphs: [
-      "Hello, I'm Hüseyin Onur, a Full Stack Developer with over six years of professional experience building enterprise-grade software solutions.",
-      "Throughout my career, I have developed reservation platforms, payment systems, tourism applications, and large-scale business software. I enjoy solving complex technical challenges by designing scalable architectures and writing clean, maintainable code.",
-      "My expertise spans backend development with .NET, ASP.NET Core, Node.js, and RESTful APIs, as well as frontend development using React, Next.js, and React Native. I also have hands-on experience with Redis, RabbitMQ, PostgreSQL, SQL Server, Docker, and cloud-based deployments.",
-      "I am passionate about building software that is reliable, performant, and easy to maintain.",
+      "6 years fullstack. most of the day is apis, workers, and the database.",
+      "i also write the ui in react / next. live products in travel, real estate, and finance.",
     ],
     stats: [
-      { value: "6+", label: "Years of Experience" },
-      { value: "4", label: "Enterprise Platforms Shipped" },
-      { value: "20+", label: "Technologies & Tools" },
-      { value: ".NET / Node / Java / Golang", label: "Core Backend Stacks" },
+      { value: "6+", label: "years" },
+      { value: "5", label: "live products" },
+      { value: ".net / node", label: "backend" },
+      { value: "react / next", label: "frontend" },
     ],
-    whatIDoEyebrow: "What I Do",
+    whatIDoEyebrow: "// what",
   },
   whatIDo: [
     {
@@ -80,86 +78,66 @@ export const en: Dictionary = {
     },
   ],
   experience: {
-    eyebrow: "Experience",
-    role: "Senior Full Stack Developer",
-    summary:
-      "Developed and maintained enterprise-level reservation, tourism, and payment platforms serving thousands of users.",
+    eyebrow: "// log",
+    role: "what i actually did",
+    summary: "booking, payments, and tourism systems. thousands of users, real traffic.",
     responsibilities: [
-      "Designed scalable REST APIs",
-      "Built microservice architectures",
-      "Developed background worker services",
-      "Integrated third-party APIs",
-      "Optimized SQL queries and database performance",
-      "Implemented Redis caching strategies",
-      "Built API Gateway services",
-      "Managed asynchronous messaging with RabbitMQ",
-      "Designed scalable database architectures",
-      "Improved application performance and reliability",
+      "rest apis and microservices",
+      "background workers",
+      "third-party api integrations",
+      "sql + redis",
+      "queues with rabbitmq",
+      "deploys with docker",
     ],
   },
   projectsIntro: {
-    eyebrow: "Featured Projects",
-    heading: "Selected Work &\nLive Products",
-    description:
-      "A selection of live products and platforms I've designed and built — from travel-tech booking systems to fintech and proptech platforms. Click through to explore each one.",
+    eyebrow: "// work",
+    heading: "stuff in production",
+    description: "click through. these are live, not case studies.",
   },
   projects: [
     {
       title: "Turasistan",
-      tag: "Travel & Tourism",
+      tag: "travel",
       href: "https://turasistan.net/",
-      description:
-        "A B2B/B2C travel platform for Hajj, Umrah, and domestic & international tour bookings — real-time availability, campaign-based pricing, and multi-channel payment integrations for travel agencies.",
+      description: "hajj, umrah, and tour booking. agency panel, pricing, payments.",
       tech: ["Next.js", "React", "REST API", "PostgreSQL"],
     },
     {
       title: "Turasistan API",
-      tag: "B2B Integration",
+      tag: "api",
       href: "https://docs.turasistan.com/",
-      description:
-        "Public REST API powering the Turasistan platform for partner agencies — tour catalog, reservations, and accounting endpoints secured with API key & JWT authentication.",
+      description: "public rest api for partner agencies. api key + jwt.",
       tech: [".NET Core", "REST API", "Microservices", "Docker"],
     },
     {
       title: "Fizbot",
-      tag: "Real Estate CRM",
+      tag: "crm",
       href: "https://fizbot.net/",
-      description:
-        "A sales management platform built for real estate agencies — lead pipelines, automated lead enrichment and valuation, and multi-channel notifications to boost agent performance.",
+      description: "sales panel for real estate offices. leads, valuation, notifications.",
       tech: ["React", "Node.js", "REST API", "MongoDB"],
     },
     {
       title: "Finbosoft",
-      tag: "FinTech",
+      tag: "fintech",
       href: "https://finbosoft.com/",
-      description:
-        "An investment analysis platform that scores and values publicly traded companies (F-Score, M-Score, Z-Score and more), helping investors make faster, data-driven decisions.",
+      description: "public-company scoring. f / m / z scores.",
       tech: ["React", "Node.js", "PostgreSQL", "REST API"],
-    },
-    {
-      title: "Ruuf",
-      tag: "PropTech",
-      href: "https://www.ruuf.com.tr/",
-      description:
-        "A rent-to-own home ownership platform — users move into their dream home immediately and build equity over time with zero down payment, paying like they would rent.",
-      tech: ["React", ".NET Core", "PostgreSQL", "Docker"],
     },
   ],
   skills: {
-    eyebrow: "Technical Skills",
-    heading: "Tools I use to\nship reliable software",
+    eyebrow: "// stack",
+    heading: "what i use day to day",
     categories: [
-      { title: "Backend", items: [".NET", "ASP.NET Core", "Node.js", "Express.js", "REST APIs", "Microservices"] },
-      { title: "Frontend", items: ["React", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"] },
-      { title: "Databases", items: ["PostgreSQL", "SQL Server", "MongoDB", "Redis"] },
-      { title: "Messaging & Search", items: ["RabbitMQ", "Elasticsearch"] },
-      { title: "DevOps", items: ["Docker", "Git", "CI/CD"] },
-      { title: "Tools", items: ["Visual Studio", "VS Code", "Postman", "Swagger", "GitHub"] },
+      { title: "backend", items: [".net", "asp.net", "node", "express", "rest", "microservices"] },
+      { title: "frontend", items: ["react", "next.js", "typescript", "tailwind"] },
+      { title: "data", items: ["postgres", "sql server", "mongo", "redis"] },
+      { title: "infra", items: ["rabbitmq", "elasticsearch", "docker", "git"] },
     ],
   },
   whyWorkWithMe: {
-    eyebrow: "Why Work With Me?",
-    heading: "What sets me\napart",
+    eyebrow: "// note",
+    heading: "short note",
     items: [
       "6+ years of professional experience",
       "Strong background in enterprise software development",
@@ -170,13 +148,12 @@ export const en: Dictionary = {
     ],
   },
   contact: {
-    eyebrow: "Contact",
-    heading: "Let's Build Something\nGreat Together",
-    description:
-      "I'm always interested in challenging projects, innovative ideas, and exciting opportunities. Whether you're looking for a Full Stack Developer or a Backend Engineer, I'd love to hear from you.",
+    eyebrow: "// ping",
+    heading: "say hi.",
+    description: "a job, a project, or just hello. email is enough.",
   },
   footer: {
-    builtWith: "",
-    rightsTemplate: "{year} {name}. All rights reserved.",
+    builtWith: "Docker + Kubernetes + CI/CD",
+    rightsTemplate: "{year} {name}",
   },
 };

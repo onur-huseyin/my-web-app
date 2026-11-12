@@ -2,7 +2,7 @@ import type { Dictionary } from "../types";
 
 export const tr: Dictionary = {
   common: {
-    letsTalk: "Hadi Konuşalım",
+    letsTalk: "mail",
     toggleMenu: "Menüyü aç/kapat",
     scroll: "Kaydır",
     languageLabel: "Dil seçin",
@@ -10,47 +10,45 @@ export const tr: Dictionary = {
   site: {
     name: "Hüseyin Onur",
     initials: "HO",
-    role: "Kıdemli Full Stack Geliştirici",
+    role: "fullstack · backend ağırlıklı",
     email: "onur.huseyin05@gmail.com",
-    location: "Uzaktan / Dünya Çapında",
+    phone: "+905433717431",
+    location: "remote",
     socials: [
       { label: "GitHub", href: "https://github.com/onur-huseyin" },
       { label: "LinkedIn", href: "https://www.linkedin.com/in/onur-huseyin/" },
     ],
   },
   nav: [
-    { label: "Hakkımda", href: "#about", num: "01" },
-    { label: "Projeler", href: "#work", num: "02" },
-    { label: "Yetenekler", href: "#skills", num: "03" },
-    { label: "Deneyim", href: "#experience", num: "04" },
-    { label: "İletişim", href: "#contact", num: "05" },
+    { label: "kim", href: "#about", num: "01" },
+    { label: "iş", href: "#work", num: "02" },
+    { label: "stack", href: "#skills", num: "03" },
+    { label: "log", href: "#experience", num: "04" },
+    { label: "mail", href: "#contact", num: "05" },
   ],
   hero: {
-    badge: "Yeni Fırsatlara Açığım",
-    heading: "Kıdemli Full Stack Geliştirici",
-    subtitle:
-      "Ölçeklenebilir arka uç sistemleri, modern web uygulamaları ve yüksek performanslı API'ler geliştiriyorum.",
+    badge: "status: müsait",
+    heading: "hüseyin onur",
+    subtitle: "fullstack geliştirici. asıl işim backend.",
     description:
-      "6 yılı aşan tecrübemle ölçeklenebilir yazılım çözümleri tasarlayan ve geliştiren bir Full Stack Developer'ım. .NET, Node.js, React ve bulut teknolojilerinde uzmanlaşarak; temiz mimariye ve kullanıcı deneyimine odaklanan, güvenilir ve yüksek performanslı uygulamalar sunuyorum.",
-    primaryCta: { label: "Projelerimi Gör", href: "#work" },
-    secondaryCta: { label: "İletişime Geç", href: "#contact" },
+      "api, kuyruk, cache ve panel yazıyorum. .net, node, java, python, react. süs yok — canlıda duran kod var.",
+    primaryCta: { label: "işler", href: "#work" },
+    secondaryCta: { label: "github", href: "https://github.com/onur-huseyin" },
   },
   about: {
-    eyebrow: "Hakkımda",
-    heading: "Ölçeklenebilir yazılımlar\ngeliştiriyorum.",
+    eyebrow: "// kim",
+    heading: "ürünü ayağa kaldırırım.",
     paragraphs: [
-      "Merhaba, ben Hüseyin Onur — kurumsal düzeyde yazılım çözümleri geliştirmede altı yılı aşan profesyonel deneyime sahip bir Full Stack Developer'ım.",
-      "Kariyerim boyunca rezervasyon platformları, ödeme sistemleri, turizm uygulamaları ve büyük ölçekli iş yazılımları geliştirdim. Ölçeklenebilir mimariler tasarlayıp temiz, sürdürülebilir kod yazarak karmaşık teknik sorunları çözmekten keyif alıyorum.",
-      "Uzmanlığım; .NET, ASP.NET Core, Node.js ve RESTful API'lerle backend geliştirmenin yanı sıra React, Next.js ve React Native ile frontend geliştirmeyi de kapsıyor. Ayrıca Redis, RabbitMQ, PostgreSQL, SQL Server, Docker ve bulut tabanlı dağıtımlarda da uygulamalı deneyime sahibim.",
-      "Güvenilir, performanslı ve bakımı kolay yazılımlar geliştirmeye tutkuyla bağlıyım.",
+      "6 yıldır fullstack. günün çoğu api, worker ve veritabanında geçiyor.",
+      "react / next ile arayüz de yazıyorum. turizm, emlak ve finans tarafında canlıda duran işler var.",
     ],
     stats: [
-      { value: "6+", label: "Yıllık Tecrübe" },
-      { value: "4", label: "Yayınlanan Kurumsal Platform" },
-      { value: "20+", label: "Teknoloji & Araç" },
-      { value: ".NET / Node / Java / Golang", label: "Temel Backend Teknolojileri" },
+      { value: "6+", label: "yıl" },
+      { value: "15+", label: "canlı ürün" },
+      { value: ".net / node", label: "backend" },
+      { value: "react / next", label: "frontend" },
     ],
-    whatIDoEyebrow: "Neler Yapıyorum",
+    whatIDoEyebrow: "// ne",
   },
   whatIDo: [
     {
@@ -80,86 +78,66 @@ export const tr: Dictionary = {
     },
   ],
   experience: {
-    eyebrow: "Deneyim",
-    role: "Kıdemli Full Stack Geliştirici",
-    summary:
-      "Binlerce kullanıcıya hizmet veren kurumsal düzeyde rezervasyon, turizm ve ödeme platformları geliştirdim ve yönettim.",
+    eyebrow: "// log",
+    role: "ne yaptım",
+    summary: "rezervasyon, ödeme ve turizm sistemleri. binlerce kullanıcı, gerçek trafik.",
     responsibilities: [
-      "Ölçeklenebilir REST API'ler tasarladım",
-      "Mikroservis mimarileri kurdum",
-      "Arka plan (background worker) servisleri geliştirdim",
-      "Üçüncü parti API entegrasyonları gerçekleştirdim",
-      "SQL sorgularını ve veritabanı performansını optimize ettim",
-      "Redis önbellekleme stratejileri uyguladım",
-      "API Gateway servisleri geliştirdim",
-      "RabbitMQ ile asenkron mesajlaşmayı yönettim",
-      "Ölçeklenebilir veritabanı mimarileri tasarladım",
-      "Uygulama performansını ve güvenilirliğini artırdım",
+      "rest api ve mikroservis",
+      "background worker",
+      "üçüncü parti api entegrasyonu",
+      "sql + redis",
+      "rabbitmq ile kuyruk",
+      "docker ile deploy",
     ],
   },
   projectsIntro: {
-    eyebrow: "Öne Çıkan Projeler",
-    heading: "Seçilmiş Çalışmalar &\nCanlı Projeler",
-    description:
-      "Tasarladığım ve geliştirdiğim canlı ürün ve platformlardan bir seçki — seyahat teknolojisi rezervasyon sistemlerinden fintech ve proptech platformlarına. Keşfetmek için üzerlerine tıklayabilirsiniz.",
+    eyebrow: "// iş",
+    heading: "canlıda duranlar",
+    description: "tıkladığın yer gerçek ürün. demo değil.",
   },
   projects: [
     {
       title: "Turasistan",
-      tag: "Seyahat & Turizm",
+      tag: "travel",
       href: "https://turasistan.net/",
-      description:
-        "Hac, Umre ve yurt içi/yurt dışı tur rezervasyonları için bir B2B/B2C seyahat platformu — gerçek zamanlı uygunluk, kampanya bazlı fiyatlandırma ve seyahat acenteleri için çok kanallı ödeme entegrasyonları.",
+      description: "hac, umre ve tur rezervasyonu. acente paneli, fiyat ve ödeme.",
       tech: ["Next.js", "React", "REST API", "PostgreSQL"],
     },
     {
       title: "Turasistan API",
-      tag: "B2B Entegrasyon",
+      tag: "api",
       href: "https://docs.turasistan.com/",
-      description:
-        "Turasistan platformunu partner acenteler için güçlendiren herkese açık REST API — API anahtarı ve JWT kimlik doğrulamasıyla güvence altına alınmış tur kataloğu, rezervasyon ve muhasebe uç noktaları.",
+      description: "partner acenteler için public rest api. api key + jwt.",
       tech: [".NET Core", "REST API", "Microservices", "Docker"],
     },
     {
       title: "Fizbot",
-      tag: "Emlak CRM",
+      tag: "crm",
       href: "https://fizbot.net/",
-      description:
-        "Emlak ofisleri için geliştirilmiş bir satış yönetim platformu — potansiyel müşteri akışları, otomatik lead zenginleştirme ve değerleme, danışman performansını artıran çok kanallı bildirimler.",
+      description: "emlak ofisi satış paneli. lead, değerleme, bildirim.",
       tech: ["React", "Node.js", "REST API", "MongoDB"],
     },
     {
       title: "Finbosoft",
-      tag: "FinTech",
+      tag: "fintech",
       href: "https://finbosoft.com/",
-      description:
-        "Halka açık şirketleri yapay zekâ destekli modellerle (F-Skoru, M-Skoru, Z-Skoru ve daha fazlası) puanlayıp değerleyen, yatırımcıların daha hızlı ve veriye dayalı kararlar almasını sağlayan bir yatırım analiz platformu.",
+      description: "halka açık şirket skorlama. f / m / z skoru.",
       tech: ["React", "Node.js", "PostgreSQL", "REST API"],
-    },
-    {
-      title: "Ruuf",
-      tag: "PropTech",
-      href: "https://www.ruuf.com.tr/",
-      description:
-        "Kira öder gibi, peşinatsız ev sahibi olma platformu — kullanıcılar hayallerindeki eve hemen taşınır ve zaman içinde ödedikleri tutarla eve sahip olurlar.",
-      tech: ["React", ".NET Core", "PostgreSQL", "Docker"],
     },
   ],
   skills: {
-    eyebrow: "Teknik Yetenekler",
-    heading: "Güvenilir yazılımlar için\nkullandığım araçlar",
+    eyebrow: "// stack",
+    heading: "günlük kullandıklarım",
     categories: [
-      { title: "Backend", items: [".NET", "ASP.NET Core", "Node.js", "Express.js", "REST APIs", "Microservices"] },
-      { title: "Frontend", items: ["React", "Next.js", "TypeScript", "JavaScript", "HTML5", "CSS3", "Tailwind CSS"] },
-      { title: "Veritabanları", items: ["PostgreSQL", "SQL Server", "MongoDB", "Redis"] },
-      { title: "Mesajlaşma & Arama", items: ["RabbitMQ", "Elasticsearch"] },
-      { title: "DevOps", items: ["Docker", "Git", "CI/CD"] },
-      { title: "Araçlar", items: ["Visual Studio", "VS Code", "Postman", "Swagger", "GitHub"] },
+      { title: "backend", items: [".net", "asp.net", "node", "express", "rest", "microservices"] },
+      { title: "frontend", items: ["react", "next.js", "typescript", "tailwind"] },
+      { title: "data", items: ["postgres", "sql server", "mongo", "redis"] },
+      { title: "infra", items: ["rabbitmq", "elasticsearch", "docker", "git"] },
     ],
   },
   whyWorkWithMe: {
-    eyebrow: "Neden Benimle Çalışmalısınız?",
-    heading: "Beni farklı\nkılan neler",
+    eyebrow: "// not",
+    heading: "kısa not",
     items: [
       "6+ yıllık profesyonel tecrübe",
       "Kurumsal yazılım geliştirmede güçlü altyapı",
@@ -170,13 +148,12 @@ export const tr: Dictionary = {
     ],
   },
   contact: {
-    eyebrow: "İletişim",
-    heading: "Birlikte Harika Bir Şey\nİnşa Edelim",
-    description:
-      "Zorlu projelere, yenilikçi fikirlere ve heyecan verici fırsatlara her zaman açığım. Bir Full Stack Developer veya Backend Engineer arıyorsanız, sizden haber almak isterim.",
+    eyebrow: "// ping",
+    heading: "yaz, konuşalım.",
+    description: "iş, proje ya da sadece merhaba. mail.",
   },
   footer: {
-    builtWith: "",
-    rightsTemplate: "{year} {name}. Tüm hakları saklıdır.",
+    builtWith: "Docker + Kubernetes + CI/CD",
+    rightsTemplate: "{year} {name}",
   },
 };

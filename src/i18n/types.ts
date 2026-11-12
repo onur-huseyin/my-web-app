@@ -28,6 +28,7 @@ export type Dictionary = {
     initials: string;
     role: string;
     email: string;
+    phone: string;
     location: string;
     socials: SocialLink[];
   };

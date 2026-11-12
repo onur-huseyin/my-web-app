@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
+import Script from "next/script";
 import { Space_Grotesk, Inter, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/layout/Navbar";
 import Footer from "@/components/layout/Footer";
-import CustomCursor from "@/components/layout/CustomCursor";
 import HtmlLangSync from "@/components/layout/HtmlLangSync";
 import { cn } from "@/lib/utils";
 
@@ -25,15 +25,16 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Hüseyin Onur — Senior Full Stack Developer",
+  title: "hüseyin onur — fullstack",
   description:
-    "Full Stack Developer specializing in .NET, Node.js, React and cloud technologies. Building scalable backend systems, modern web applications, and high-performance APIs.",
+    "Hüseyin Onur — fullstack geliştirici. .NET, Node.js ve React ile api, panel ve canlı ürünler.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html
       lang="en"
+      suppressHydrationWarning
       className={cn(
         "dark h-full antialiased",
         spaceGrotesk.variable,
@@ -41,10 +42,11 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
         geistMono.variable,
       )}
     >
-      <body className="cursor-enabled relative flex min-h-full flex-col bg-bg text-fg selection:bg-accent">
-        <div className="grain-overlay" aria-hidden="true" />
+      <body className="relative flex min-h-full flex-col bg-bg text-fg selection:bg-accent selection:text-on-accent">
+        <Script id="theme-init" strategy="beforeInteractive">
+          {`(function(){try{var t=localStorage.getItem("theme");if(t!=="light"&&t!=="dark")t="dark";document.documentElement.classList.toggle("dark",t==="dark")}catch(e){}})();`}
+        </Script>
         <HtmlLangSync />
-        <CustomCursor />
         <Navbar />
         <main className="flex-1">{children}</main>
         <Footer />
