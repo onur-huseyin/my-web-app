@@ -47,9 +47,9 @@ export default function Hero() {
         <pre className="mt-10 overflow-x-auto rounded-md border border-line bg-bg-elevated p-4 font-mono text-xs leading-6 text-muted md:text-sm">
           <code>{`const onur = {
   role: "${site.role}",
-  stack: [".net", "node", "react", "next"],
+  stack: [".net", "node", "java", "python", "react", "next", "redis", "rabbitmq", "docker", "kubernetes", "ci/cd"],
   location: "${site.location}",
-  phone: "${site.phone}",
+  phone: "${site.phone}", 
 };`}</code>
         </pre>
       </div>
